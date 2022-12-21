@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  body {
+    background-color: #090e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+
+  .container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+  }
+  
+  /* IMC Form */
+  .calculadoraText{
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .box label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+  }
+  
+  .box input {
+    padding: 1rem 0.5rem;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  
+  button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  /* Table */
+  .resultado {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .imc {
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .situcao {
+    font-size: 1.4rem;
+    color: #ccc;
+  }
+  
+  .resultado h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+  }
+  
+  .resultado {
+    display: flex;
+    flex-direction: column;
+  }
